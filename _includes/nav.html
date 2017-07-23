@@ -92,10 +92,9 @@
 					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
 				</ul>
 			</li>
+			<ul class="dl-menu">
+			<li><a href="{{ site.url }}/contact">Contact</a></li>
 			<li>
-				<a href="#">Contact</a>
-				<u1 class ="d1-submenu">
-				</u1>
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
